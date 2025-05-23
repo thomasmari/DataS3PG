@@ -3,11 +3,7 @@ class Animal:
         self.poids = poids
         self.taille = taille
     def se_deplacer(self):
-        pass
+        pass #remember to implement this
         # return None
     def pretty_print(self):
-        print(f"Animal qui pèse {self.poids} Kg et mesure {self.taille} m")
-
-babar = Animal(358,2.3)
-babar.se_deplacer()
-babar.pretty_print()          
+        print(f"Animal qui pèse {self.poids} Kg et mesure {self.taille} m")       
