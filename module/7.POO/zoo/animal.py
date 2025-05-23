@@ -19,5 +19,7 @@ class Animal:
             raise ValueError("L'argument nouvelle_taille doit être un float strictement positif")
     def se_deplacer(self):
         pass #remember to implement this
+    def __str__(self):
+        return(f"Animal qui pèse {self.__poids} Kg et mesure {self.__taille} m")   
     def pretty_print(self):
-        print(f"Animal qui pèse {self.__poids} Kg et mesure {self.__taille} m")       
+        print(self.__str__())       

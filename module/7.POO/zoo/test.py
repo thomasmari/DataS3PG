@@ -25,6 +25,16 @@ if __name__ == '__main__':
     zoo_de_grenoble.liberer(vipere)
     zoo_de_grenoble.liberer(poulet)
     zoo_de_grenoble.pretty_print()
+    print("Création d'un nouveau zoo de la voliere de Mélan")
+    pigeon1 =  Oiseau(0.150,0.23)
+    pigeon2 =  Oiseau(0.160,0.25)
+    pigeon3 =  Oiseau(0.130,0.27)
+    zoo_de_melan = Zoo([pigeon1,pigeon2,pigeon3])   
+    print("zoo de grenoble + zoo de melan")
+    (zoo_de_grenoble+zoo_de_melan).pretty_print()
+
+
+
 
 
 
