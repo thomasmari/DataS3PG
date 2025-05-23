@@ -6,4 +6,4 @@ class Serpent(Animal):
     def se_deplacer(self):
         print("tsssssssssss tsss     Je rampe      tsssssss  tssssssssss")
     def __str__(self):
-        return(f"Serpent qui pèse {self.get_poids()} Kg et mesure {self.get_taille()} m")   
+        return(f"Serpent qui pèse {self.poids} Kg et mesure {self.taille} m")   

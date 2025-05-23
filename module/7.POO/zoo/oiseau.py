@@ -7,4 +7,4 @@ class Oiseau(Animal):
     def se_deplacer(self):
         print(f"flap flap flap             Je Vole ! Je peux voler J'usquà {self.altitude_max}  m    flap flap flap")
     def __str__(self):
-        return(f"oiseau  qui pèse {self.get_poids()} Kg et mesure {self.get_taille()} m")   
+        return(f"oiseau  qui pèse {self.poids} Kg et mesure {self.taille} m")   
