@@ -69,16 +69,19 @@ https://lucid.app/lucidchart/b4f18760-c71a-47d8-8276-abb10f3241bf/edit?viewport_
 mld link\
 https://lucid.app/lucidchart/f0593e8f-dc08-4dbe-a907-eab8b8c2c4d1/edit?viewport_loc=-480%2C-326%2C3194%2C1682%2C0_0&invitationId=inv_d5de9322-d84d-401d-aaf8-7de608b00d2f
 ![mld](image-5.png)
-## SQL and querry
-```SQL
-CREATE TABLE cars (
-  brand VARCHAR(255),
-  model VARCHAR(255),
-  year INT
-); 
-```
+
 
 ## pgadmin setting
 ![alt text](image-3.png)
 ![alt text](image-2.png) 
 
+
+## SQL and querry
+```SQL
+SELECT population FROM world
+    WHERE name = 'Germany'
+    WHERE name IN ('Sweden', 'Norway', 'Denmark');
+    WHERE area BETWEEN 250000 AND 300000
+
+); 
+```
