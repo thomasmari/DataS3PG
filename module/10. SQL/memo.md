@@ -65,12 +65,10 @@ Client SQL pgAdmin 4 (GUI)
 ## Méthode Merise
 mcd link\
 https://lucid.app/lucidchart/b4f18760-c71a-47d8-8276-abb10f3241bf/edit?viewport_loc=-542%2C-2399%2C4791%2C2523%2Czok3yUf69dyn&invitationId=inv_658f19f1-8868-4c81-b1c6-d583529cc4c1
-
-![](image-1.png)
+![mcd](image-4.png)
 mld link\
 https://lucid.app/lucidchart/f0593e8f-dc08-4dbe-a907-eab8b8c2c4d1/edit?viewport_loc=-480%2C-326%2C3194%2C1682%2C0_0&invitationId=inv_d5de9322-d84d-401d-aaf8-7de608b00d2f
-![alt text](image.png)
-
+![mld](image-5.png)
 ## SQL and querry
 ```SQL
 CREATE TABLE cars (
