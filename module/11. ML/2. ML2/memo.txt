@@ -1,25 +1,35 @@
 1) What are the necessary preprocessing steps regarding:
 a) classes ?
+- remove rows with no target
+- there is as many samples (=patients) that are sick as there are healthy patient:
 
 b) categorical features ? 
+Transform non-boolean (multi-categorical features) into Boolean (like OneHotEncoder)
 
 c) continuous features ?
+- Standardize numeric features : mean = 0, std = 1
+- No strong correlations between numeric (& cat) features
 
 2) Confusion matrix:
 a)How many patient were incorrectly diagnosed with a Heart disease (false positives) ?
-
+4(FP)
 b)How many patient were incorrectly diagnosed as being Healthy (false negatives)?
-
+9(FN)
 
 3) Changing the threshold:
 a)What is the precision if we change the threshold to have a 0.95 recall ? 
-
+threshold = 0.1953125 
+recall(train) = 1.0   
+precision(train) = 0.610062893081761 
 b) How many patient were incorrectly diagnosed as being Healthy (false negatives)?
-
+9 patients
 
 
 4) Choosing an overall metric:
 
 a) If I can compute my test sample probabilities and care more about the positive class, which overall metric should I use to compare classifiers ? 
+roc_auc_score to compare different different models, the threshold can be choosen later
+
 
 b) And if I only have the class predictions and no probabilities ?
+sensitivity (Recall)
