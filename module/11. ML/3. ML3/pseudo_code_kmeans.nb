@@ -1,0 +1,22 @@
+PSEUDO CODE KMEANS :
+
+fit(k: number of cluster, max_iter : int, eps : terminaison precision)
+#init
+centroid = pick_distinct(k,data)
+cluster = partition(data,centroid)
+means_list = compute_centroids_means(cluster)
+max_distance_centroids = max_distance(centroids, means_list) 
+#iteration
+
+
+
+
+
+
+
+
+
+
+pick_disctinct(k,data) returns k disctinct rows in data
+partition(data,centroid) computes the euclydian distance between every row and every centroid and affect in a disctionnary the row to the nearest centroid.
+compute_centroids_means
