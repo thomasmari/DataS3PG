@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 
+
 df_solaire = pd.read_pickle("../data/Pickles/df_solaire_norm.pkl")
 df_eolien = pd.read_pickle("../data/Pickles/df_eolien_norm.pkl")
 df_nationales = pd.read_pickle("../data/Pickles/df_data_nationales.pkl")
